@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | CodeCraftByVishal</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.gallery-container {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="Contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <section class="gallery-container">
+        <div class="gallery">
+            <a href="img-2.jpg" data-lightbox="gallery" data-title="Image 1"><img src="img-2.jpg" alt="Image 1"></a>
+            <a href="img-1.jpg" data-lightbox="gallery" data-title="Image 2"><img src="img-1.jpg" alt="Image 2"></a>
+            <a href="img-3.mp4" data-lightbox="gallery" data-title="Image 3"><img src="img-3.mp4" alt="Image 3"></a>
+            <a href="img-4.jpg" data-lightbox="gallery" data-title="Image 4"><img src="img-4.jpg" alt="Image 4"></a>
+            <a href="img-5.jpg" data-lightbox="gallery" data-title="Image 5"><img src="img-5.jpg" alt="Image 5"></a>
+        </div>
+    </section>
+
+    <section>
+        <h2><a href="teams.html">My Team-Member</a></h2>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CodeCraftByVishal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
