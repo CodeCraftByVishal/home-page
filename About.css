@@ -1,35 +1,62 @@
-body {
-    margin:0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-.container {
-  align-items: center;
-  color: #fff;
-  background-image: url("photo-1699891730676-037bed3c1bed.jpeg");
-  background-size: cover;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-   /* background-color: white; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-}
-h1 {
-    color: #333;
-}
-p {
-    line-height: 1.6;
-}
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.social-media a {
-    text-decoration: none;
-  /*  color: #0077b5;   */
-    color: red;
-    margin-right: 10px;
-}
+       body{
+            padding: 0;
+            margin: 0;
+            background-image: url("Picsart_24-09-28_21-08-07-703.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        header ul {
+           height: 60px;
+           border: 2px solid transparent;
+           align-items: center;
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           padding: 10px 0;
+        }
+        
+        ul li {
+           list-style: none;
+           color: #2ec052;
+           margin: 20px;
+           text-shadow: 2px 2px #ff0000;
+        }
+        
+        ul{
+          font-size: 20px;
+          padding: 0;
+        }
+        
+        a{
+           text-decoration: none;
+           color: #fff;
+        }
+        
+        .intro{
+            margin-top: 100px;
+           text-align: center;
+           font-size: 30px;
+           padding: 20px;
+           word-wrap: break-word;
+        }
+        
+        .name{
+          color: #aca917;
+          text-shadow: 2px 2px rgb(9, 255, 140);
+        }
+        
+        footer{
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          padding: 20px;
+          background: rgba(0, 0, 0, 0.7);
+          color: white;
+        }
+        
+        footer div{
+          margin: 10px;
+          text-align: center;
+          min-width: 250px;
+        }
